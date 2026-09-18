@@ -79,3 +79,15 @@ minute_angle = 6 * minute
 angle = abs(hour_angle - minute_angle)
 angle = min(angle, 360 - angle)
 print(f"Angle between hands: {angle:.2f} degrees")
+
+
+#42.scholarship eligibility
+
+marks = float(input("enter marks percentage :"))
+attendance = float(input("enter attendance percentage :"))
+income = float(input("enter annual family income :"))
+
+if marks >= 75 and attendance >= 80 and income <= 200000:
+    print("eligible for scholarship")
+else:
+    print("not eligible for scholarship")
